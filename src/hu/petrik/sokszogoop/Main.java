@@ -17,5 +17,10 @@ public class Main {
         for (int i = 0; i < 16; i++) {
             System.out.println(new Paralelogramma());
         }
+        System.out.println("\nÖtszög teszt ---------------------------------------\n");
+        for (int i = 0; i < 20; i++) {
+            System.out.println(new Otszog(Math.random() * 10 + 5));
+        }
+        System.out.println("\nSokszogek osztály tesztelése---------------------------------------\n");
     }
 }
