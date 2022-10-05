@@ -22,5 +22,10 @@ public class Main {
             System.out.println(new Otszog(Math.random() * 10 + 5));
         }
         System.out.println("\nSokszogek osztály tesztelése---------------------------------------\n");
+        Sokszogek szgs = new Sokszogek();
+        System.out.println(szgs);
+        System.out.printf("\nA kerületek összege: %-10.3f\n",szgs.osszKerulet());
+        System.out.printf("A területek összege: %-10.3f\n",szgs.osszTerulet());
+        System.out.printf("A legnagyobb területű sokszüg helyiértéke: %d\n",szgs.maxTerulet());
     }
 }

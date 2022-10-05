@@ -20,7 +20,7 @@ public class Paralelogramma extends Sokszog {
     }
 
     private static double veletlenSzog() {
-        return Math.random() * 89;
+        return Math.random() * 89 + 1;
     }
 
     public double getB() {
